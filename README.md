@@ -11,6 +11,7 @@ The dataset of 350 bird species comes from Kaggle and is continuously updated. C
 - Neural Network as a biologically inspired simulation has outstanding performance on clustering, classification, and pattern recognition. 
 - CNN is the domain neural network for deep learning of image and video. The filter of CNN can play the role of feature extraction, and the channel of each layer can help retain the spatial features.
 - Pre-trained VGG and ResNet model are applied in the model experiment. The result shows VGG isn't fit this dataset, so it is replaced by the self-build model in the model implementation step. 
+- Due to the overfitting in the last epoch, two data augmentation, color jitter and horizontal flipping, are tried. The horizontal flipping shows better performance, and the test accuracy of this final model reaches 92%.
 
 # Reference
 
